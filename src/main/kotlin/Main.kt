@@ -1,3 +1,4 @@
+import org.apache.logging.log4j.LogManager
 import java.lang.Thread.sleep
 
 fun main(args: Array<String>) {
@@ -7,7 +8,7 @@ fun main(args: Array<String>) {
 
     while (true){
         println(lb.get())
-        sleep(4000)
+        sleep(2)
     }
 
 }
